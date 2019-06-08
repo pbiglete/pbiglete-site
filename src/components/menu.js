@@ -1,21 +1,26 @@
 import React from 'react'
+import { Button } from 'reactstrap';
 import { Link }  from 'gatsby'
+
 
 const Menu = () => (
     <div style={{
-        background: '#f4f4f4',
-        paddingTop: '10px'
+        background: '#6da5ff',
+        paddingTop: '20px'
     }}>
 
     <ul style={{
         listStyle: 'none',
         display: 'flex',
-        justifyContent: 'space-evenly'
+        paddingRight: 720,
+        justifyContent: 'center'
     }}>
-        <Link to="/">Home</Link>
-        <Link to="/projects">Projects</Link>
+        <h3>{'//'}</h3>
+        <h3><Link to="/">about</Link></h3>
+        <h3>{'//'}</h3>
+        <h3><Link to="/projects">projects</Link></h3>
+        <h3>{'//'}</h3>
     </ul>
-
     </div>
 )
 

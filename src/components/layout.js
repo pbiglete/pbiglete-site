@@ -26,7 +26,7 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        <Header siteTitle={data.site.siteMetadata.title} />
+        <Header siteTitle={data.site.siteMetadata.title} /> 
         <Menu />
         <div
           style={{
@@ -40,7 +40,7 @@ const Layout = ({ children }) => (
           <footer>
             © {new Date().getFullYear()}, Built by
             {` `}
-            <a href="https://pbiglete.dev">Paul Jerrold Biglete</a>
+            <a href="https://pbiglete.dev/">Paul Jerrold Biglete</a>
           </footer>
         </div>
       </>
