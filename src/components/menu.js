@@ -12,6 +12,11 @@ const Menu = () => (
                 </Link>
             </li>
             <li>
+                <Link className={menuStyles.navItem} activeClassName={menuStyles.activeNavItem} to="/resume">
+                    RESUME
+                </Link>
+            </li>
+            <li>
                 <Link className={menuStyles.navItem} activeClassName={menuStyles.activeNavItem} to="/projects">
                     PROJECTS
                 </Link>

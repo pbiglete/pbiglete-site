@@ -17,6 +17,9 @@
     font-size: 65px;
     font-weight: 720;
     text-decoration: none;
+    display: flex;
+    margin: 0;
+    white-space: nowrap;
 }
 
 .subHeaderTitle {
@@ -24,8 +27,6 @@
     padding-left: 155px;
     font-weight: 400;
     font-size: 25px;
+    white-space: nowrap;
 }
 
-.link { //selector
-    color: #999999;
-}
