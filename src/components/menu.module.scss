@@ -1,0 +1,39 @@
+
+
+.navList{
+    background: #ffffff;
+    padding: 0rem 0 0rem;
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+
+}
+
+.horLine {
+    max-width: 875px;
+    border-top: 10px solid #333333;
+}
+
+.navItem {
+    font-size: 38px;
+    font-weight: 700;
+    color: #333333;
+    margin-right: 25px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navItem:hover{
+    color: #4f9eff;
+}
+
+.active-nav-item {
+    //color: #949494;
+    color: #4f9eff;
+}
+
+.navItem::after {
+    font-size: 55px;
+    content: ".";
+    color: #4f9eff;
+}

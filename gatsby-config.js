@@ -1,10 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Paul Jerrold Biglete`,
+    title: `PAUL JERROLD BIGLETE`,
     description: `My Portfolio`,
-    author: `@pbiglete`,
+    author: `Paul Jerrold Biglete`,
   },
   plugins: [
+    'gatsby-plugin-sass',
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,

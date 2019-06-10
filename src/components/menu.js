@@ -1,27 +1,28 @@
-import React from 'react'
-import { Button } from 'reactstrap';
-import { Link }  from 'gatsby'
+import React from "react"
+import menuStyles from "./menu.module.scss"
+import { Link }  from "gatsby"
 
 
 const Menu = () => (
-    <div style={{
-        background: '#6da5ff',
-        paddingTop: '20px'
-    }}>
-
-    <ul style={{
-        listStyle: 'none',
-        display: 'flex',
-        paddingRight: 720,
-        justifyContent: 'center'
-    }}>
-        <h3>{'//'}</h3>
-        <h3><Link to="/">about</Link></h3>
-        <h3>{'//'}</h3>
-        <h3><Link to="/projects">projects</Link></h3>
-        <h3>{'//'}</h3>
-    </ul>
-    </div>
+    <nav>
+        <ul className={menuStyles.navList}>
+            <li>
+                <Link className={menuStyles.navItem} activeClassName={menuStyles.activeNavItem} to="/">
+                    HOME
+                </Link>
+            </li>
+            <li>
+                <Link className={menuStyles.navItem} activeClassName={menuStyles.activeNavItem} to="/projects">
+                    PROJECTS
+                </Link>
+            </li>
+            <li>
+                <Link className={menuStyles.navItem} activeClassName={menuStyles.activeNavItem} to="/contact">
+                    CONTACT
+                </Link>
+            </li>
+        </ul>
+    </nav>
 )
 
 export default Menu;

@@ -1,34 +1,21 @@
 import { Link } from "gatsby"
+import logo from '../images/my_logo_proper.png'
 import PropTypes from "prop-types"
 import React from "react"
+import headerStyles from "./header.module.scss" //Loading styles for a specifc component
+import menuStyles from "./menu.module.scss"
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `#333`,
-      marginBottom: `0`,
-      paddingTop: 120
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
+  <header className={headerStyles.header}>
+    <div className={headerStyles.logo}>
+      <img src={logo} alt="Logo"/>
+    </div>
+      <h1>
+        <Link className={headerStyles.title}>
           {siteTitle}
         </Link>
+        <p className={headerStyles.subHeaderTitle}>an aspiring software engineer</p>
       </h1>
-    </div>
   </header>
 )
 
