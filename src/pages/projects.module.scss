@@ -1,0 +1,28 @@
+.projects {
+    list-style-type: none;
+    margin: 0;
+}
+
+.project {
+    margin: 1rem 0;
+    a {
+        background: #f4f4f4;
+        color: #333333;
+        display: block;
+        padding: 1rem;
+        text-decoration: none;
+    }
+    a:hover {
+        background:  #4f9eff;
+    }
+
+    h2 {
+        margin-bottom: 0.5rem;
+    }
+
+    h3 {
+        font-size: 20px;
+        font-style: italic;
+        font-weight: 200;
+    }
+}

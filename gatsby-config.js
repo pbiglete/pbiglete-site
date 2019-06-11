@@ -5,8 +5,7 @@ module.exports = {
     author: `Paul Jerrold Biglete`,
   },
   plugins: [
-    'gatsby-plugin-sass',
-    'gatsby-transformer-remark',
+    `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -24,7 +23,22 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    'gatsby-plugin-favicon',
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          `gatsby-remark-relative-images`,
+          {
+              resolve: `gatsby-remark-images`,
+              options: {
+                  maxWidth: 950,
+                  linkImagesToOriginal: false
+            }
+          }
+        ]
+      }
+    },
+    `gatsby-plugin-favicon`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

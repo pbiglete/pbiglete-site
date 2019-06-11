@@ -23,8 +23,6 @@ query (
 const Project = (props) => {
     return (
         <Layout>
-            <h1>{props.data.markdownRemark.frontmatter.title}</h1>
-            <p></p>
             <div dangerouslySetInnerHTML={{__html: props.data.markdownRemark.html}}></div>
         </Layout>
     )

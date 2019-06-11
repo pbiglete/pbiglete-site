@@ -2,37 +2,46 @@ import React from 'react'
 import {graphql, StaticQuery} from 'gatsby'
 import Link from 'gatsby-link'
 import Layout from "../components/layout"
+import projectsStyles from "./projects.module.scss"
 import "../styles/index.scss"
 
 const ProjectsPage = () => (
   <StaticQuery
   query={graphql`
-    query {
-      allMarkdownRemark (filter: { fileAbsolutePath: {regex : "\/projects/"} },)
-      {
-        edges {
-          node {
-            frontmatter {
-              title
-            }
-            fields {
-              slug
-            }
+  query {
+    allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/projects/"}}, 
+      sort: {
+        fields: [frontmatter___date, frontmatter___title]
+        order: DESC
+      }
+    ) {
+      edges {
+        node {
+          frontmatter {
+            title
+            datelocation
+            description
+          }
+          fields {
+            slug
           }
         }
       }
     }
+  }  
   `} 
   
   render={data => (
     <Layout>
     <h1>PROJECTS</h1>
-    <ol>
+    <ol className={projectsStyles.projects}>
     {data.allMarkdownRemark.edges.map((edge) => {
         return (
-          <li>
+          <li className={projectsStyles.project}>
             <Link to={`/projects/${edge.node.fields.slug}`}>
             <h2>{edge.node.frontmatter.title}</h2>
+            <h3>{edge.node.frontmatter.datelocation}</h3>
+            <p>{edge.node.frontmatter.description}</p>
             </Link>
           </li>
         )
