@@ -33,7 +33,7 @@ const ProjectsPage = () => (
   
   render={data => (
     <Layout>
-    <h1>PROJECTS</h1>
+    <h1>Projects</h1>
     <ol className={projectsStyles.projects}>
     {data.allMarkdownRemark.edges.map((edge) => {
         return (
