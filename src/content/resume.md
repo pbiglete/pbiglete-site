@@ -1,5 +1,4 @@
 ---
-tags: "resume"
 title: "Resume"
 ---
 
