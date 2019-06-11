@@ -1,17 +1,25 @@
 module.exports = {
   siteMetadata: {
     title: `PAUL JERROLD BIGLETE`,
-    description: `My Portfolio`,
+    description: `My Personal Website / Portfolio`,
     author: `Paul Jerrold Biglete`,
   },
   plugins: [
     'gatsby-plugin-sass',
+    'gatsby-transformer-remark',
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `content`,
+        path: `${__dirname}/src/content`,
       },
     },
     `gatsby-transformer-sharp`,
