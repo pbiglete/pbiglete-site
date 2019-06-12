@@ -3,6 +3,7 @@ import {graphql, StaticQuery} from 'gatsby'
 import Link from 'gatsby-link'
 import Layout from "../components/layout"
 import projectsStyles from "./projects.module.scss"
+import Head from '../components/head'
 import "../styles/index.scss"
 
 const ProjectsPage = () => (
@@ -33,7 +34,9 @@ const ProjectsPage = () => (
   
   render={data => (
     <Layout>
+    <Head title="PROJECTS" />
     <h1>Projects</h1>
+    <hr></hr>
     <ol className={projectsStyles.projects}>
     {data.allMarkdownRemark.edges.map((edge) => {
         return (

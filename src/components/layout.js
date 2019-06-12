@@ -41,6 +41,7 @@ const Layout = ({ children }) => (
           </div>
         <Menu />
         <main>{children}</main>
+        <hr></hr>
           <div className={layoutStyles.iconBar}>
               <a href="https://www.linkedin.com/in/paul-jerrold-biglete-44220a183/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
                 <FontAwesomeIcon className={layoutStyles.icon} icon={faLinkedin} />

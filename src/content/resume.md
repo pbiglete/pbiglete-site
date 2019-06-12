@@ -27,3 +27,4 @@ General Assistant<br/>
  Responsible for walk-in and phone-in customer service.<br/>
  Managed records of electronic and physical of sales and services.<br/>
 
+
