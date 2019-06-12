@@ -49,7 +49,7 @@ const Layout = ({ children }) => (
               <a href="https://github.com/pbiglete" target="_blank" rel="noopener noreferrer" title="GitHub">
                 <FontAwesomeIcon className={layoutStyles.icon} icon={faGithub} />
               </a>
-              <a href="" target="_blank" rel="noopener noreferrer" title="Resume">
+              <a href="https://drive.google.com/file/d/16-j0TG0iAJ3ETrHGeOUrHaxBgGzjsseb/view?usp=sharing" target="_blank" rel="noopener noreferrer" title="Resume">
                 <FontAwesomeIcon className={layoutStyles.icon} icon={faFileAlt} />
               </a>
               <a href="mailto: pbiglete@gmail.com" target="_blank" rel="noopener noreferrer" title="Email">
