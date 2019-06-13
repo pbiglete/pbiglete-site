@@ -17,12 +17,45 @@
     }
 
     h2 {
+        font-size: 20px;
         margin-bottom: 0.5rem;
     }
 
     h3 {
-        font-size: 20px;
+        font-size: 15px;
         font-style: italic;
         font-weight: 200;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    @media(min-width: 800px) {
+        a {
+            background: #f4f4f4;
+            color: #333333;
+            display: block;
+            padding: 1rem;
+            text-decoration: none;
+        }
+        a:hover {
+            background:  #4f9eff;
+        }
+
+        h2 {
+            font-size: 28px;
+            margin-bottom: 0.5rem;
+        }
+    
+        h3 {
+            font-size: 18px;
+            font-style: italic;
+            font-weight: 200;
+        }
+
+        p {
+            font-size: 20px;
+        }
     }
 }
