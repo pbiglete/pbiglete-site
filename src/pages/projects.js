@@ -6,6 +6,7 @@ import projectsStyles from "./projects.module.scss"
 import Head from '../components/head'
 import "../styles/index.scss"
 
+
 const ProjectsPage = () => (
   <StaticQuery
   query={graphql`

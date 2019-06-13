@@ -1,6 +1,7 @@
 .navList{
     background: #ffffff;
     padding: 0rem 0 0rem;
+    padding-top: 5px;
     padding-bottom: 20px;
     display: flex;
     list-style-type: none;
@@ -9,6 +10,7 @@
     @media (min-width: 800px) {
         background: #ffffff;
         padding: 0rem 0 0rem;
+        padding-top: 5px;
         padding-bottom: 20px;
         display: flex;
         list-style-type: none;
@@ -16,23 +18,12 @@
     }
 }
 
-.horLine {
-    max-width: 875px;
-    border-top: 5px solid #333333;
-    white-space: nowrap;
-
-    @media(min-width: 800px) {
-        max-width: 875px;
-        border-top: 10px solid #333333;
-        white-space: nowrap;
-    }
-}
 
 .navItem {
     font-size: 19px;
     font-weight: 700;
     color: #333333;
-    margin-right: 25px;
+    margin-right: 10px;
     text-decoration: none;
     text-align: center;
 

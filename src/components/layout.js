@@ -36,9 +36,6 @@ const Layout = ({ children }) => (
       <div className={layoutStyles.container}>
         <div className={layoutStyles.content}>
         <Header siteTitle={data.site.siteMetadata.title} /> 
-          <div className={menuStyles.horLine}>
-              <br></br>
-          </div>
         <Menu />
         <main>{children}</main>
         <hr></hr>

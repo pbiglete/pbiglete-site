@@ -1,21 +1,37 @@
 .container {
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 1000px;
     padding: 1rem;
 
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 
+    h1 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
 
     @media(min-width: 800px) {
         margin: 0 auto;
-        max-width: 910px;
+        max-width: 1000px;
         padding: 1rem;
     
         display: flex;
         flex-direction: column;
         min-height: 100vh;
+     
+        h1 {
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 20px;
+        }
     }
 }
 
@@ -26,7 +42,7 @@
 
 .icon {
     text-decoration: none;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 700;
     color: #333333;
     margin-right: 15px;

@@ -16,6 +16,15 @@
     padding: 1rem 0 1rem;
 }
 
+.horLine {
+    border-top: 5px solid #333333;
+
+    @media(min-width: 800px) {
+        max-width: 1000px;
+        border-top: 10px solid #333333;
+    }
+}
+
 .title {
     margin: 0 auto;
     padding-top: 20px;
@@ -54,7 +63,7 @@
         color: #333333;
         padding-left: 155px;
         font-weight: 400;
-        font-size: 25px;
+        font-size: 30px;
         white-space: nowrap;
     }
 }
