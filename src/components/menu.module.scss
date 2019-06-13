@@ -1,13 +1,11 @@
 .navList{
     background: #ffffff;
     padding: 0rem 0 0rem;
-    padding-top: 5px;
-    padding-bottom: 20px;
     display: flex;
     list-style-type: none;
     margin: 0;
 
-    @media (min-width: 800px) {
+    @media screen and (min-width: 800px) {
         background: #ffffff;
         padding: 0rem 0 0rem;
         padding-top: 5px;
@@ -20,14 +18,14 @@
 
 
 .navItem {
-    font-size: 19px;
+    font-size: 15px;
     font-weight: 700;
     color: #333333;
     margin-right: 10px;
     text-decoration: none;
     text-align: center;
 
-    @media(min-width: 800px) {
+    @media screen and (min-width: 800px) {
         font-size: 38px;
         font-weight: 700;
         color: #333333;
@@ -46,11 +44,11 @@
 }
 
 .navItem::after {
-    font-size: 19px;
+    font-size: 15px;
     content: ".";
     color: #4f9eff;
 
-    @media(min-width: 800px) {
+    @media screen and (min-width: 800px) {
         font-size: 55px;
         content: ".";
         color: #4f9eff;

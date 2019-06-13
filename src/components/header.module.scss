@@ -1,69 +1,64 @@
 .logo {
+    padding-top: 110px;
+    width: 50px;
+    height: 50px;
 
-    padding-top: 120px;
-    width: 100px;
-    height: 100px;
-
-    @media (min-width: 800px) {
-        padding-top: 150px;
+    @media screen and (min-width: 800px) {
+        padding-top: 120px;
         width: 145px;
         height: 145px;
     }
 }
 
 .header {
+    margin: 0 auto;
     background: #ffffff;
-    padding: 1rem 0 1rem;
-}
 
-.horLine {
-    border-top: 5px solid #333333;
-
-    @media(min-width: 800px) {
-        max-width: 1000px;
-        border-top: 10px solid #333333;
+    @media screen and (min-width: 800px){
+        padding: 1rem 0 1rem;
     }
 }
 
 .title {
     margin: 0 auto;
-    padding-top: 20px;
-    padding-left: 110px;
+    padding-left: 55px;
     max-width: 800px;
     color: #333333;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 720;
     text-decoration: none;
     display: flex;
-    margin: 0;
+    margin: 0 auto;
     white-space: nowrap;
     
-    @media(min-width: 800px){
+    @media screen and (min-width: 800px){
         margin: 0 auto;
-        padding-left: 150px;
+        padding-left: 160px;
         max-width: 960px;
         color: #333333;
         font-size: 65px;
         font-weight: 720;
         text-decoration: none;
         display: flex;
-        margin: 0;
+        margin: 0 auto;
         white-space: nowrap;
     }
 }
 
 .subHeaderTitle {
     color: #333333;
-    padding-left: 110px;
+    padding-left: 55px;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 15px;
+    margin: 0 auto;
     white-space: nowrap;
 
-    @media(min-width: 800px) {
+    @media screen and (min-width: 800px) {
         color: #333333;
-        padding-left: 155px;
+        padding-left: 165px;
         font-weight: 400;
         font-size: 30px;
+        margin: 0 auto;
         white-space: nowrap;
     }
 }

@@ -31,7 +31,7 @@
         font-size: 15px;
     }
 
-    @media(min-width: 800px) {
+    @media screen and (min-width: 800px) {
         a {
             background: #f4f4f4;
             color: #333333;
