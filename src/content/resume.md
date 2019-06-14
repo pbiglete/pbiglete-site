@@ -7,7 +7,8 @@ title: "Resume"
 **Programming Languages:** C#, C/C++, SQL, BASH, Swift, HTML, CSS, Javascript<br/>
 **Frameworks:** .NET Core, Angular, React <br/>
 **Software:** Visual Studio, Git, XCode, Microsoft Office Suite, Adobe Photoshop <br/>
-**Operating Systems:** Windows, Linux, MacOS
+**Operating Systems:** Windows, Linux, MacOS <br/>
+
 # Education
 ---
 ###San Diego State Univerisity | Graduated December 2018
@@ -16,7 +17,7 @@ title: "Resume"
 # Work Experience
 ---
 ### Repair Technician / General Assistant
-#### SDMODS (Jun 2009 - April 2012)
+#### SDMODS (June 2009 - April 2012)
 Repair Technician <br/>
  Removal and replacement of small and medium sized motherboard components.<br/>
  Performed anti-malware and virus removal services on personal computers.<br/>

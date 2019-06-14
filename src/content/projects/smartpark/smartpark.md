@@ -1,6 +1,7 @@
 ---
 title: "SmartPark - A Wireless Parking Solution (C# / Swift)"
 date: "2018-12-01"
+year: "2018"
 datelocation: "Aug 2018 - Dec 2018 | San Diego State University"
 description: "A wireless parking solution that helps make finding parking easier."
 ---

@@ -43,7 +43,6 @@
             background:  #4f9eff;
         }
 
-
         h2 {
             font-size: 28px;
             margin-bottom: 0.5rem;
@@ -58,5 +57,51 @@
         p {
             font-size: 20px;
         }
+    }
+}
+
+.navList{
+    background: #ffffff;
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+}
+
+
+.navItem {
+    font-size: 15px;
+    font-weight: 200;
+    color: #333333;
+    margin-right: 10px;
+    text-decoration: none;
+    text-align: center;
+
+    @media screen and (min-width: 800px) {
+        font-size: 25px;
+        font-weight: 200;
+        color: #333333;
+        margin-right: 25px;
+        text-decoration: none;
+        text-align: center;
+    }
+}
+
+.navItem:hover{
+    color: #4f9eff;
+}
+
+.active-nav-item {
+    color: #4f9eff;
+}
+
+.navItem::after {
+    font-size: 15px;
+    content: ".";
+    color: #4f9eff;
+
+    @media screen and (min-width: 800px) {
+        font-size: 55px;
+        content: ".";
+        color: #4f9eff;
     }
 }

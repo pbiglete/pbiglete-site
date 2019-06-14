@@ -1,6 +1,7 @@
 ---
 title: "pbiglete.dev (GatsbyJS / React)"
 date: "2019-06-01"
+year: "2019"
 datelocation: "June 2019 - Present | San Diego, CA"
 description: "My Personal Website / Portfolio"
 ---

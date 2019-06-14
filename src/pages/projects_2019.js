@@ -7,16 +7,13 @@ import Head from '../components/head'
 import "../styles/index.scss"
 
 
-const ProjectsPage = () => (
+const Projects2019Page = () => (
   <StaticQuery
   query={graphql`
   query {
-    allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/projects/"}}, 
-      sort: {
-        fields: [frontmatter___date, frontmatter___title]
-        order: DESC
-      }
-    ) {
+    allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/projects/"}, 
+                                frontmatter:{ year: {eq: "2019"}}}, 
+      sort: {fields: [frontmatter___date, frontmatter___title], order: DESC}) {
       edges {
         node {
           frontmatter {
@@ -30,7 +27,7 @@ const ProjectsPage = () => (
         }
       }
     }
-  }  
+   }  
   `} 
   
   render={data => (
@@ -38,22 +35,22 @@ const ProjectsPage = () => (
     <Head title="PROJECTS" />
     <h1>Projects</h1>
     <hr></hr>
-    <ul className={projectsStyles.navList}>
-                <li>
-                    <Link className={projectsStyles.navItem} activeClassName={projectsStyles.activeNavItem} to="/projects_2019">
-                        2019
-                    </Link>
-                </li>
-                <li>
-                    <Link className={projectsStyles.navItem} activeClassName={projectsStyles.activeNavItem} to="/projects_2018">
-                        2018
-                    </Link>
-                </li>
-                <li>
-                    <Link className={projectsStyles.navItem} activeClassName={projectsStyles.activeNavItem} to="/projects">
-                        ALL
-                    </Link>
-                </li>
+        <ul className={projectsStyles.navList}>
+            <li>
+                <Link className={projectsStyles.navItem} activeClassName={projectsStyles.activeNavItem} to="/projects_2019">
+                    2019
+                </Link>
+            </li>
+            <li>
+                <Link className={projectsStyles.navItem} activeClassName={projectsStyles.activeNavItem} to="/projects_2018">
+                    2018
+                </Link>
+            </li>
+            <li>
+                <Link className={projectsStyles.navItem} activeClassName={projectsStyles.activeNavItem} to="/projects">
+                    ALL
+                </Link>
+            </li>
         </ul>
     <hr></hr>
     <ol className={projectsStyles.projects}>
@@ -75,4 +72,4 @@ const ProjectsPage = () => (
 
 )
 
-export default ProjectsPage;
+export default Projects2019Page;
