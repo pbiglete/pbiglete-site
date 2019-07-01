@@ -55,7 +55,7 @@ const Layout = ({ children }) => (
           </div>
         </div>
               <footer className={layoutStyles.footer}>
-                © {new Date().getFullYear()}, Created by Paul Jerrold Biglete.
+                © {new Date().getFullYear()}, Created by Paul Jerrold Biglete. - Version 1.0.0
               </footer>
        </div>
     )}

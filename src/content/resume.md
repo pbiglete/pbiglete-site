@@ -4,7 +4,7 @@ title: "Resume"
 
 # Technical Skills
 ---
-**Programming Languages:** C#, C/C++, SQL, BASH, Swift, HTML, CSS, Javascript<br/>
+**Programming Languages:** C#, C/C++, JAVA, SQL, BASH, Swift, HTML/CSS/Javascript<br/>
 **Frameworks:** .NET Core, Angular, React <br/>
 **Software:** Visual Studio, Git, XCode, Microsoft Office Suite, Adobe Photoshop <br/>
 **Operating Systems:** Windows, Linux, MacOS <br/>
