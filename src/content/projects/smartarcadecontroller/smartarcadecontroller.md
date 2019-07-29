@@ -1,18 +1,20 @@
 ---
 title: "Smart Arcade Controller (Python / Raspberry Pi Zero W)"
-date: "2018-12-01"
-year: "2018"
-datelocation: "December 2018 - Postponed | San Diego, CA"
+date: "2019-06-30"
+year: "2019"
+datelocation: "June 2019 - Present | San Diego, CA"
 description: "An arcade controller that tracks players input data in real time, provides user statistics and helps the user learn button and directional combinations for specific games."
 ---
 
 ## Smart Arcade Controller (Python / Raspberry Pi Zero W)
-#### *December 2018 - Postponed | San Diego, CA*
+#### *June 2019 - Present | San Diego, CA*
+#### [Github Link](https://github.com/pbiglete/SmartArcadeController)
 ##### An arcade controller that tracks players input data in real time, provides user statistics and helps the user learn button and directional combinations for specific games.
 
 
 ---
-Currently still in development. Project is postponed due to other project priorities. <br/>
+
+An arcade controller system that tracks a user’s button input data in real time using a Pi Zero W connected to a Fighting Board+ and provides statistical analysis on a user’s controller behavior while playing a game such as button press patterns / timings and activity level. <br/>
 
 ---
 
