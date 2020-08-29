@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{"Cuy+":function(e,n,t){"use strict";t.r(n),t.d(n,"query",(function(){return o}));var a=t("q1tI"),r=t.n(a),u=t("Bl7J"),l=(t("sg+I"),t("hIod")),o="1047052760";n.default=function(e){return r.a.createElement(u.a,null,r.a.createElement(l.a,{title:"CONTACT"}),r.a.createElement("div",{dangerouslySetInnerHTML:{__html:e.data.markdownRemark.html}}))}}}]);
+//# sourceMappingURL=component---src-pages-contact-js-90861c90314d0ca826c1.js.map

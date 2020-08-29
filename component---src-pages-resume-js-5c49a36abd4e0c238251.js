@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[12],{F2CN:function(e,n,t){"use strict";t.r(n),t.d(n,"query",(function(){return o}));var a=t("q1tI"),r=t.n(a),l=t("Bl7J"),u=(t("sg+I"),t("hIod")),o="2613344429";n.default=function(e){return r.a.createElement(l.a,null,r.a.createElement(u.a,{title:"RESUME"}),r.a.createElement("div",{dangerouslySetInnerHTML:{__html:e.data.markdownRemark.html}}))}}}]);
+//# sourceMappingURL=component---src-pages-resume-js-5c49a36abd4e0c238251.js.map
