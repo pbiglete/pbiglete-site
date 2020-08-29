@@ -2,7 +2,7 @@
 title: "Smart Arcade Controller (Python / Raspberry Pi Zero W)"
 date: "2019-06-30"
 year: "2019"
-datelocation: "June 2019 - Present | San Diego, CA"
+datelocation: "June 2019 - Postponed | San Diego, CA"
 description: "An arcade controller that tracks players input data in real time, provides user statistics and helps the user learn button and directional combinations for specific games."
 ---
 
