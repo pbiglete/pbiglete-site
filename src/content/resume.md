@@ -2,6 +2,13 @@
 title: "Resume"
 ---
 
+# Interests
+---
+* Optimizing System Performance <br/>
+* System Performance Monitoring <br/>
+* System Infrastructure - _Automation, Reliability, Scalability, Sustainability, Security_ <br/>
+* Automated Application Deployment <br/>
+
 # Technical Skills
 ---
 **Programming Languages:** C#, C/C++, Python, SQL, BASH, Swift, HTML/CSS/Javascript<br/>
@@ -19,23 +26,23 @@ title: "Resume"
 ### Systems Integration Engineer I
 #### Center for Applied Internet Data Analysis (Oct 2019 - Present)
 System Integration Engineer I <br/>
- <br/>
- <br/>
- <br/>
- <br/>
- <br/>
- <br/>
+* <br/>
+* <br/>
+* <br/>
+* <br/>
+* <br/>
+* <br/>
 
 ---
 ### Repair Technician / General Assistant
 #### SDMODS (June 2009 - April 2012)
 Repair Technician <br/>
- Removal and replacement of small and medium sized motherboard components.<br/>
- Performed anti-malware and virus removal services on personal computers.<br/>
- Disassembly, cleaning, and re-assembly of small to medium sized electronics and appliances.<br/>
- Operation of Hot Air and BGA Rework Stations.<br/>
+* Removal and replacement of small and medium sized motherboard components.<br/>
+* Performed anti-malware and virus removal services on personal computers.<br/>
+* Disassembly, cleaning, and re-assembly of small to medium sized electronics and appliances.<br/>
+* Operation of Hot Air and BGA Rework Stations.<br/>
 
 General Assistant<br/>
- Responsible for walk-in and phone-in customer service.<br/>
- Managed records of electronic and physical of sales and services.<br/>
+* Responsible for walk-in and phone-in customer service.<br/>
+* Managed records of electronic and physical of sales and services.<br/>
 
