@@ -25,13 +25,12 @@ title: "Resume"
 ---
 ### Systems Integration Engineer I
 #### Center for Applied Internet Data Analysis (Oct 2019 - Present)
-System Integration Engineer I <br/>
-* <br/>
-* <br/>
-* <br/>
-* <br/>
-* <br/>
-* <br/>
+* Automates application/system deployment and processing tasks using Puppet & Openstack. <br/>
+* Manages CAIDA’s real-time timeseries data collection/storage and Puppet infrastructure. <br/>
+* Designs integrated solutions and process status reporting across various platforms. <br/>
+* Monitors and tracks performance and health of multiple systems. <br/>
+* Writes documentation for application deployment, configuration management, and system
+infrastructure. <br/>
 
 ---
 ### Repair Technician / General Assistant
