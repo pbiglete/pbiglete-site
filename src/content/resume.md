@@ -23,8 +23,12 @@ title: "Resume"
 
 # Work Experience
 ---
-### Systems Integration Engineer I
-#### Center for Applied Internet Data Analysis (Oct 2019 - Present)
+
+### Center for Applied Internet Data Analysis (CAIDA)
+#### Systems Integration Engineer III - (Oct 2020 - Present)
+
+#### Systems Integration Engineer I - (Oct 2019 - Oct 2020)
+
 * Automates application/system deployment and processing tasks using Puppet & Openstack. <br/>
 * Manages CAIDA’s real-time timeseries data collection/storage and Puppet infrastructure. <br/>
 * Designs integrated solutions and process status reporting across various platforms. <br/>
@@ -34,7 +38,7 @@ infrastructure. <br/>
 
 ---
 ### Repair Technician / General Assistant
-#### SDMODS (June 2009 - April 2012)
+#### SDMODS (Jun 2009 - Apr 2012)
 Repair Technician <br/>
 * Removal and replacement of small and medium sized motherboard components.<br/>
 * Performed anti-malware and virus removal services on personal computers.<br/>
