@@ -37,8 +37,11 @@ title: "Resume"
 infrastructure. <br/>
 
 ---
-### Repair Technician / General Assistant
-#### SDMODS (Jun 2009 - Apr 2012)
+
+### SDMODS (Jun 2009 - Apr 2012)
+
+#### Repair Technician / General Assistant
+
 Repair Technician <br/>
 * Removal and replacement of small and medium sized motherboard components.<br/>
 * Performed anti-malware and virus removal services on personal computers.<br/>

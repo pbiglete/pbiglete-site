@@ -49,7 +49,7 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public -r git@github.com:pbiglete/pbiglete.git",
     "update:packages": "node wipe-dependencies.js && rm -rf node_modules && npm update --save-dev && npm update --save"
   },
   "repository": {
