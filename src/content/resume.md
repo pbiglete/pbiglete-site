@@ -23,9 +23,15 @@ title: "Resume"
 
 # Work Experience
 ---
+### Kentik
+
+####
+
+#### NOC Site Reliability Engineer - (Jul 2022 - Present)
 
 ### Center for Applied Internet Data Analysis (CAIDA)
-#### Systems Integration Engineer III - (Oct 2020 - Present)
+
+#### Systems Integration Engineer III - (Oct 2020 - Jun 2022)
 
 #### Systems Integration Engineer I - (Oct 2019 - Oct 2020)
 
