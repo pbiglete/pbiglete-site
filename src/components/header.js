@@ -13,7 +13,7 @@ const Header = ({ siteTitle }) => (
         <Link className={headerStyles.title}>
           {siteTitle}
         </Link>
-        <p className={headerStyles.subHeaderTitle}>a systems integration engineer</p>
+        <p className={headerStyles.subHeaderTitle}>a devops nerd</p>
       </h1>
   </header>
 )
