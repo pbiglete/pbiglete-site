@@ -10,7 +10,7 @@
     "@fortawesome/free-solid-svg-icons": "*",
     "@fortawesome/react-fontawesome": "*",
     "bootstrap": "*",
-    "gatsby": "^2.0.0",
+    "gatsby": "^5.3.3",
     "gatsby-image": "*",
     "gatsby-plugin-favicon": "*",
     "gatsby-plugin-manifest": "*",
